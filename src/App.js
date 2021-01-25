@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <div className="my-3">{stylingBoxes}</div>
-      <textarea />
+      <textarea fontStyle={stylings} />
       <div className="my-3">{colorBoxes}</div>
     </div>
   );
